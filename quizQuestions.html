@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Calvin Cheung Lab 1
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            background-color:lightblue;
+            font-family: Helvetica, Arial, sans-serif;
+            padding: 35px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Lab 1</h1>
+
+<h4>Question 1: What is the correct output of the 3 console.log statements?</h4>
+<p> let x = 3; <br/>
+    console.log(++x); <br/>
+    console.log(x++); <br/>
+    console.log(x);</p>
+    
+<input type="radio" id="answer1-1" name="question1" value="answer1-1">
+<label for="answer1-1">4, 4, 5</label><br>
+
+<input type="radio" id="answer1-2" name="question1" value="answer1-2">
+<label for="answer1-2">4, 5, 5</label><br>
+
+<input type="radio" id="answer1-3" name="question1" value="answer1-3">
+<label for="answer1-3">3, 4, 4</label>
+
+<h4>Question 2: What is the correct output of the following code?</h4>
+<p> let a = 5; <br/>
+    let b = "5"; <br/>
+    var match; <br/>
+    <br/>
+    if ( a == b ) { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp; match = true; <br/>
+    } else { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp; match = false; <br/>
+    } <br/>
+    <br/>
+    console.log("The numbers match:" + match);
+</p>
+
+<input type="radio" id="answer2-1" name="question2" value="answer2-1">
+<label for="male">The numbers match: false</label><br>
+<input type="radio" id="answer2-2" name="question2" value="answer2-2">
+<label for="female">The numbers match: true</label><br>
+<input type="radio" id="answer2-3" name="question2" value="answer2-3">
+<label for="other">The numbers match: NaN</label>
+
+<h4>Question 3: What is the correct output of the following code?</h4>
+<p> pens = ["red", "blue", "green", "orange"]; </br>
+    console.log(pens); <br/>
+    pens.shift(); <br/>
+    console.log(pens);</p>
+
+<input type="radio" id="answer3-1" name="question3" value=answer3-1>
+<label for="answer3-1"> ["red", "blue", "green", "orange"];<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;["orange", "green", "blue", "red"]; <br/><br/></label>
+<input type="radio" id="answer3-2" name="question3" value="answer3-2">
+<label for="answer3-2"> ["red", "blue", "green", "orange"];<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;["red", "blue", "green", "orange"]; <br/><br/></label>
+<input type="radio" id="answer3-3" name="question3" value="answer3-3">
+<label for="answer3-3"> ["red", "blue", "green", "orange"];<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;["blue", "green", "orange"];</label>
+
+<h4>Question 4: What does .slice() do in the following block of code?</h4>
+<p> pens = ["red", "blue", "green", "orange"]; </br>
+    newPens = pens.slice(); <br/></p>
+
+<input type="radio" id="answer4-1" name="question4" value="answer4-1">
+<label for="answer4-1">Slices out a certain value in the array depending on the index</label><br>
+<input type="radio" id="answer4-2" name="question4" value="answer4-2">
+<label for="answer4-2">Copies the array and lets a new array take its value</label><br>
+<input type="radio" id="answer4-3" name="question4" value="answer4-3">
+<label for="answer4-3">Nothing</label>
+
+<h4>Question 5: What is a closure in terms of functions in JavaScript?</h4>
+
+<input type="radio" id="answer5-1" name="question5" value="answer5-1">
+<label for=answer5-1>A function inside a function that relies on outside variables to work</label><br>
+<input type="radio" id="answer5-2" name="question5" value="answer5-2">
+<label for="answer5-2">An ending bracket of a set of code braces ex: { }</label><br>
+<input type="radio" id="answer5-3" name="question5" value="answer5-3">
+<label for="answer5-3">The last function in the script section of a html document</label>
+
+<a href="COMP4537.html"> Return back to course home</a>
+
+</body>
+</html>
